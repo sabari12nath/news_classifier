@@ -1,20 +1,53 @@
+# Dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 venv/
-.venv/
 env/
-.env
-*.db
+ENV/
 
-# Node
-node_modules/
-dist/
-.next/
-out/
-build/
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# External projects
+backend/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Uploads
+uploads/
+*.pdf
+*.mp4
+*.avi
+*.mp3
+*.wav
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
